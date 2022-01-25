@@ -1,17 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
-
 *{
-  padding: 0;
-  margin: 0;
+  padding: 50;
+  margin: 50;
 }
 
 body{
-  font-family: 'Luckiest Guy', cursive;
-  background-color: #E6E6EA;
+  background-color: #AFEEEE;
 }
 
 header{
-  background: #FE4A49;
+  background: #EEBD8C;
 }
 
 .container{
@@ -21,8 +18,8 @@ header{
 
 .nav{
   overflow: hidden;
-  background:#FE4A49;
-  color: #fff;
+  background:#EEBD8C;
+  color: #EEBD8C;
   padding: 20px 0;
 }
 
@@ -31,24 +28,21 @@ header{
   float: left;
 }
 
-nav{
-  float: right;
-}
-
 nav ul{
   list-style-type: none;
+  text-align: center;
 }
 
 nav li{
   font-size: 1.3rem;
   margin-top: 5px;
-  float: left;
   padding: 0 15px;
+  display: inline-block;
 }
 
 nav a{
   text-decoration: none;
-  color: #fff;
+  color: #000000;
 }
 
 .current a::after{
@@ -95,41 +89,6 @@ nav a{
   color: #fff;
   transition: 2s;
   box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.9);
-}
-
-@media(max-width:768px){
-  .nav h2{
-    font-size: 1.5rem;
-    float: none;
-    text-align: center;
-  }
-
-  nav{
-    float: none;
-    display: flex;
-    justify-content: center;
-  }
-
-  nav li{
-    font-size: 1rem;
-  }
-}
-
-@media(max-width:480px){
-  .nav h2{
-    float: none;
-    text-align: center;
-  }
-
-  .equation h1{
-    display: inline;
-    padding: 10px;
-  } 
-
-  nav li{
-    font-size: .8rem;
-  }
-
 }
 
 #answer-options{
